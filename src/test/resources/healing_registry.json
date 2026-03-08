@@ -1,0 +1,1 @@
+{"By.xpath: //butttton[@type\u003d\u0027submit\u0027]":"//button[@type\u003d\u0027submit\u0027 and contains(@class, \u0027btn btn-primary\u0027)]"}
