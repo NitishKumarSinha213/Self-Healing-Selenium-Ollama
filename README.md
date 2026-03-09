@@ -1,6 +1,8 @@
 AI Self-Healing Selenium Framework : 
 This framework eliminates "Flaky Tests" caused by UI changes (ID changes, renamed classes, or modified XPaths) by using a local Large Language Model to "heal" broken selectors on the fly.
 
+Demo link : https://drive.google.com/file/d/1kXS2NNwKNo6cRJP3RTl3Ow3YZMQXk8YC/view?usp=drive_link
+
 Key Features : 
 1. AI-Powered Recovery: Uses LangChain4j to interface with Ollama (Qwen2.5) for high-accuracy element matching.
 2. Smart HTML Filtering: Uses Jsoup to strip unnecessary noise from the DOM, sending only interactive elements to the LLM to save tokens and improve speed.
