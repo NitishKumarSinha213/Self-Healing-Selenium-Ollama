@@ -43,10 +43,10 @@ public class SelfHealingTests {
 
         ownerFind.loadHomePage(siteURL);
         ownerFind.navigateToFindOwnersPage();
-        ownerFind.findOwnerOnPage("Kumar");
+        ownerFind.findOwnerOnPage("Coleman");
 
         ownerFind.navigateToFindOwnersPage();
-        ownerFind.findOwnerOnPage("Sinha");
+        ownerFind.findOwnerOnPage("Black");
 
     }
 }

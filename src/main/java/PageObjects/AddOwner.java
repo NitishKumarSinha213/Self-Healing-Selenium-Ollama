@@ -34,10 +34,20 @@ public class AddOwner {
     public void findOwnerOnPage(String lastName){
         wait.until(ExpectedConditions.visibilityOfElementLocated(findByLastName));
         wait.until(ExpectedConditions.elementToBeClickable(findByLastName));
+        try{
+            Thread.sleep(2000);
+        } catch (InterruptedException ex){
+            ex.printStackTrace();
+        }
 
         WebElement lastNameBox = SelfHealingLogic.findElementByHealing(driver,findByLastName);
         lastNameBox.click();
         lastNameBox.sendKeys(lastName);
+        try{
+            Thread.sleep(2000);
+        } catch (InterruptedException ex){
+            ex.printStackTrace();
+        }
 
         WebElement ownerFindButton = SelfHealingLogic.findElementByHealing(driver,findOwnerButton);
         ownerFindButton.click();
